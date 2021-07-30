@@ -13,19 +13,8 @@ import TodoInput from './components/TodoInput.vue'
 import TodoList from './components/TodoList.vue'
 import TodoFooter from './components/TodoFooter.vue'
 
-var my_cmp = {
-  template: '<div>my component</div>'
-}
-
-new Vue({
-  el: '',
-  componets: {
-    'my-cmp':my_cmp
-  }
-})
-
 export default {
-  componets: {
+  components: {
     'TodoHeader' : TodoHeader,
     'TodoInput' : TodoInput,
     'TodoList' : TodoList,
